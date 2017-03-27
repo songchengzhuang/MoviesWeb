@@ -1,0 +1,19 @@
+{
+  "name": "mymovie",
+  "version": "1.0.0",
+  "description": "my movies",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "song chengzhuang",
+  "license": "ISC"
+}

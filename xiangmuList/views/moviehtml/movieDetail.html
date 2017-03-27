@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>电影详情页</title>
+
+    <!-- Bootstrap -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div id="my_movie" class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <h3>
+                电影详情页
+            </h3>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-8 column">
+            <object width='720' height='600'>
+                <param name='allowFullScreen' value='true'>
+                <param name='movie' v-bind:value='movie.flash'/>
+                <embed v-bind:src='movie.flash' width='720' height='600'
+                       allowFullScreen='true' type='application/x-shockwave-flash'/>
+            </object>
+        </div>
+        <div class="col-md-4 column">
+            <dl class="dl-horizontal">
+                <dt>
+                    电影名字：
+                </dt>
+                <dd>
+                    {{movie.title}}
+                </dd>
+                <dt>
+                    导&nbsp;&nbsp;&nbsp;&nbsp;演：
+                </dt>
+                <dd>
+                    {{movie.doctor}}
+                </dd>
+                <dt>
+                    国&nbsp;&nbsp;&nbsp;&nbsp;家：
+                </dt>
+                <dd>
+                    {{movie.country}}
+                </dd>
+                <dt>
+                    语&nbsp;&nbsp;&nbsp;&nbsp;言：
+                </dt>
+                <dd>
+                    {{movie.language}}
+                </dd>
+                <dt>
+                    上映年份：
+                </dt>
+                <dd>
+                    {{movie.year}}
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <h4>电影简介：</h4>
+            <p>
+                {{movie.summary}}
+            </p>
+        </div>
+    </div>
+</div>
+<!--
+        作者：1109726547@qq.com
+        时间：2017-03-19
+        描述：本站地址和备案号
+    -->
+<div class="row clearfix">
+    <div class="col-md-12 column text-center">
+        <address>宋先森的简历&nbsp;&nbsp;&nbsp;&nbsp;备案号：鲁ICP备16048200号</address>
+    </div>
+</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--vue.js-->
+<script src="//cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+<script src="/js/moviejs/movieDetailVue.js"></script>
+</body>
+
+</html>

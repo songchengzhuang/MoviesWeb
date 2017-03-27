@@ -1,0 +1,18 @@
+{
+  "name": "y",
+  "description": "my movie",
+  "main": "app.js",
+  "authors": [
+    "song chengzhuang"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
