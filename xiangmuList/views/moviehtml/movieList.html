@@ -63,8 +63,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <template v-for="(movie,index) in movieList">
-                    <tr>
+                    <tr v-for="(movie,index) in movieList">
                         <td style="display:none">
                             {{movie._id}}
                         </td>
@@ -93,7 +92,6 @@
                             <button class="btn btn-danger btn-xs del" onclick="filmdel()">删除</button>
                         </td>
                     </tr>
-                </template>
                 </tbody>
             </table>
         </div>
