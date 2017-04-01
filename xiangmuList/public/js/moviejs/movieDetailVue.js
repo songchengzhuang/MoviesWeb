@@ -8,6 +8,7 @@
 new Vue({
     el: "#my_movie",
     data: {
+        filmshow:false,
         movie: {
             //格式化表单
             _id:'undefined',
@@ -33,6 +34,10 @@ new Vue({
             this.movie = data.movie;
             console.log("测试状态:" + status);
             //console.log("测试数据2:" + this.movie._id);
+             if (this.movie.flash != '') {
+                //为了兼容ie浏览器
+                return this.filmshow = true;
+            }
         },
 
         filmdetail: function () {
