@@ -4,5 +4,5 @@
 欢迎大家的下载和修改。
 电影首页--localhost:3000/index
 电影详情页--localhost:3000/detail
-电影后台列表页--localhost:3000/film/movie
+电影后台列表页--localhost:3000/film/list
 电影后台录入页--localhost:3000/film/admin
