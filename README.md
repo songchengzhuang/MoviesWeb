@@ -6,3 +6,5 @@
 电影详情页--localhost:3000/detail
 电影后台列表页--localhost:3000/film/list
 电影后台录入页--localhost:3000/film/admin
+----------------------
+登录，注册，权限管理正在整理中，请期待。。。
