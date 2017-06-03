@@ -14,4 +14,4 @@
 
 电影后台录入页--localhost:3000/film/admin
 
-登录，注册，权限管理 已经发送到 github请查看  MoviesWeb_plus
+登录，注册，权限管理 已经发送到 github请查看  MoviesWeb_plus：https://github.com/songchengzhuang/MoviesWeb_plus.git
