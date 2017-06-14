@@ -1,4 +1,9 @@
 # MoviesWeb
+此项目需要 电脑上 安装有 node+MongoDB数据库。
+
+app.js启动node服务器。
+
+-----------------------------------------------------
 
 本站采用Bootstrap+Vue.js+Node.js+MongoDB响应式布局。
 
